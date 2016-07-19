@@ -1,0 +1,21 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\cinematicaCaida.cs">
+    <Files>
+      <File FileName="Assets\Splash.cs" Line="17" Column="16" />
+      <File FileName="Assets\cinematicaIni.cs" Line="14" Column="28" />
+      <File FileName="Assets\PlantaBaja.cs" Line="12" Column="2" />
+      <File FileName="Assets\MemoriaUno.cs" Line="14" Column="38" />
+      <File FileName="Assets\PbLavadero.cs" Line="6" Column="2" />
+      <File FileName="Assets\MemoriaDos.cs" Line="17" Column="1" />
+      <File FileName="Assets\PbPp.cs" Line="6" Column="2" />
+      <File FileName="Assets\cinematicaCaida.cs" Line="9" Column="26" />
+      <File FileName="Assets\Sotano.cs" Line="12" Column="1" />
+      <File FileName="Assets\MemoriaTres.cs" Line="8" Column="37" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

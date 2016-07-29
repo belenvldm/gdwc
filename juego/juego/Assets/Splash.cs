@@ -11,11 +11,15 @@ public class Splash : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Invoke ("onLoad", 2);
+		Invoke ("PlayGame", 4);
 	}
 
-	void onLoad(){
-		//Application.LoadLevel ("PlantaBaja");
-		SceneManager.LoadScene("cinematicaIni");
+	void PlayGame(){
+		//SceneManager.LoadScene("cinematicaIni");
+		FadeData fadeData = new FadeData();
+		fadeData.newScene = "CinematicaIni";
+		fadeData.color = Color.black;
+		fadeData.duration = 1.5f;
+		Events.Fade (fadeData);
 	}
 }

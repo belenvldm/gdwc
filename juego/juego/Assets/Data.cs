@@ -1,20 +1,27 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-/**
-* En esta clase va todo lo que es predeterminado,
-* se puede usar en cualquier otra clase 
-*/
-
 public class Data : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
+	static Data mInstance = null;
+	public Inventory inventory;
+
+	public static Data Instance
+	{
+		get
+		{
+			if (mInstance == null) 
+			{
+				Debug.LogError ("Algo llama a DATA antes de inicializarse");
+			}
+			return mInstance;
+		}
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+
+	void Awake()
+	{
+		mInstance = this;
+		DontDestroyOnLoad (this);
+		inventory = GetComponent<Inventory> ();
 	}
 }

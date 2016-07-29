@@ -11,10 +11,15 @@ public class cinematicaIni : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Invoke ("iniciarJuego", 1);
+		Invoke ("iniciarJuego", 6);
 	}
 
 	void iniciarJuego(){
-		SceneManager.LoadScene ("PlantaBaja");
+		// SceneManager.LoadScene ("PlantaBaja");
+		FadeData fadeData = new FadeData();
+		fadeData.newScene = "PlantaBaja";
+		fadeData.color = Color.black;
+		fadeData.duration = 1.5f;
+		Events.Fade (fadeData);
 	}
 }

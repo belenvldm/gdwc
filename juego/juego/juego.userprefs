@@ -1,18 +1,19 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\FadeToBlack.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Game.cs">
     <Files>
-      <File FileName="Assets\FadeToBlack.cs" Line="44" Column="31" />
-      <File FileName="Assets\Game.cs" Line="1" Column="1" />
-      <File FileName="Assets\Data.cs" Line="1" Column="1" />
-      <File FileName="Assets\Splash.cs" Line="23" Column="26" />
-      <File FileName="Assets\Inventory.cs" Line="1" Column="1" />
+      <File FileName="Assets\PlantaBaja.cs" Line="37" Column="7" />
+      <File FileName="Assets\Splash.cs" Line="22" Column="28" />
+      <File FileName="Assets\FadeData.cs" Line="1" Column="1" />
+      <File FileName="Assets\FadeToBlack.cs" Line="15" Column="26" />
+      <File FileName="Assets\Game.cs" Line="8" Column="3" />
+      <File FileName="Assets\Data.cs" Line="4" Column="21" />
+      <File FileName="Assets\Inventory.cs" Line="9" Column="14" />
       <File FileName="Assets\Item.cs" Line="1" Column="1" />
-      <File FileName="Assets\Events.cs" Line="11" Column="59" />
+      <File FileName="Assets\Events.cs" Line="1" Column="1" />
       <File FileName="Assets\ItemsManager.cs" Line="1" Column="1" />
       <File FileName="Assets\ItemPickUp.cs" Line="1" Column="1" />
-      <File FileName="Assets\FadeData.cs" Line="10" Column="22" />
-      <File FileName="Assets\cinematicaIni.cs" Line="23" Column="26" />
+      <File FileName="Assets\cinematicaIni.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
